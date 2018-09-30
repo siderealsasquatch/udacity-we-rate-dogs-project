@@ -1,0 +1,13 @@
+# Ignore the following directories
+data/
+test_scripts/
+test/
+
+# Ignore KDE directory file
+.directory
+
+# Ignore the various python artifacts
+__pycache__/
+
+# Ignore twitter api credentials
+*credentials*
