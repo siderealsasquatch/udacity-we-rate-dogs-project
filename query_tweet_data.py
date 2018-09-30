@@ -4,6 +4,9 @@
 #   twitter archive csv and image prediction tsv file. The tweet data will be
 #   stored in separate files.
 #
+#   NOTE: I'm going to adapt this code to the wrangle_act notebook and then move
+#   this file to the test_scripts dir so that it's no longer tracked by git.
+#
 
 import tweepy
 import os
