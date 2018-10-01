@@ -41,12 +41,15 @@ if not api:
 
 # Get the tweet ids
 tweet_ids_all = []
-twitter_archive = pd.read_csv('data/twitter-archive-enhanced.csv')
-twitter_image_pred = pd.read_csv('data/image-predictions.tsv',
-                                 delim_whitespace=True)
+# twitter_archive = pd.read_csv('data/twitter-archive-enhanced.csv')
+# twitter_image_pred = pd.read_csv('data/image-predictions.tsv',
+                                 # delim_whitespace=True)
 
-tweet_ids_all.append(twitter_archive.tweet_id.astype(str).tolist())
-tweet_ids_all.append(twitter_image_pred.tweet_id.astype(str).tolist())
+tweet_ids_all.append(pd.read_csv('data/twitter-archive-enhanced.csv')
+                       .tweet_id.astype(str).tolist())
+tweet_ids_all.append(pd.read_csv('data/image-predictions.tsv',
+                                 delim_whitespace=True)
+                       .tweet_id.astype(str).tolist())
 
 # Get all of the tweet data
 for tweet_ids, file_name in zip(tweet_ids_all, file_names):

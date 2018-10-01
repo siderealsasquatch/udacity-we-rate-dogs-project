@@ -8,6 +8,7 @@ test/
 
 # Ignore the various python artifacts
 __pycache__/
+.ipynb_checkpoints/
 
 # Ignore twitter api credentials
 *credentials*
