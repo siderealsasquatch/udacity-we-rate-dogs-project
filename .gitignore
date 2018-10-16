@@ -15,5 +15,6 @@ __pycache__/
 
 # Ignore all data and text files
 *.csv
+*.tsv
 *.json
 *.txt
