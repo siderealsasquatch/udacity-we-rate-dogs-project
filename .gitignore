@@ -2,6 +2,7 @@
 data/
 #test_scripts/
 test*/
+*scripts*/
 
 # Ignore KDE directory file
 .directory
