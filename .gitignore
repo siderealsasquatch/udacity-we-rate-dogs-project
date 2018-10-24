@@ -15,7 +15,7 @@ __pycache__/
 *credentials*
 
 # Ignore all data and text files
-*.csv
-*.tsv
-*.json
-*.txt
+#*.csv
+#*.tsv
+#*.json
+#*.txt
