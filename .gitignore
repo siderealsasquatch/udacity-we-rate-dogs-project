@@ -1,6 +1,7 @@
 # Ignore the following directories
 data/
 test*/
+*scripts/
 
 # Ignore KDE directory file
 .directory
