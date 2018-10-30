@@ -13,6 +13,9 @@ __pycache__/
 # Ignore twitter api credentials
 *credentials*
 
+# Ignore TODO file
+*TODO*
+
 # Ignore all data and text files
 #*.csv
 #*.tsv
