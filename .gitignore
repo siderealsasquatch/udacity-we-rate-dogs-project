@@ -17,7 +17,7 @@ __pycache__/
 *TODO*
 
 # Ignore the jupyter notebooks used to create the reports
-*report.ipynb
+*report*.ipynb*
 
 # Ignore all data and text files
 #*.csv
