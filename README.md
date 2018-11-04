@@ -2,11 +2,19 @@
 
 This is a draft of my submission for Udacity Data Analyst Nanodegree program. In
 this project we were given the task of wrangling data from a selection of
-archived tweets from the WeRateDogs twitter account. The archived data was
-provided to us in the `twitter-archive-enhanced.csv` file. The
-`image-predictions.tsv` file containing the predictions of a machine learning
-algorithm trained on a sample of the tweets was actually downloaded from a
-dedicated repository as part of the project requirements. The `tweet_json.txt`
-file contains addtional data that was gathered from Twitter using the Tweepy
-library. The `wrangle_act.ipynb` details the steps taken to gather, assess, and
-clean the data. Note that this is still a work in progress.
+archived tweets from the WeRateDogs twitter account. The data for this project
+is contained in the following files:
+- `twitter-archive-enhanced.csv`: the archived tweets.
+- `image-predictions.tsv`: prediction results from a machine learning algorithm
+  trained on a sample of the archived tweets.
+- `tweet_json.txt`: the extra data obtained from Twitter.
+
+while cleaned data is contained in the following files:
+- `twitter-archive-master.csv`: the cleaned tweets.
+- `image-predictions-master.csv`: the cleaned image prediction data.
+
+As for the remainder of the files:
+- `wrangle_act.ipynb`: details the data wrangling process.
+- `wrangle_report.html`: briefly summarizes my experiences wrangling the data
+  for this project.
+- `act_report.html`: report on the insights that I found in the data.
